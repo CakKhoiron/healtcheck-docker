@@ -1,1 +1,2 @@
-# healtcheck-docker
+## healthcheck-docker
+This project is based on my personal research to comply my Talend Open Studio application with CI/CD architecture. I found two ways to handle healthcheck capabilities inside docker container for Talend Opend Studio Big Data or Data Integration. There are with nginx or python flask. I decide to use nginx because od Talend is not python based, flask consume more resources, and nginx functionalability will be helpful to provide api to trigger my application.
